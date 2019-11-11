@@ -68,7 +68,7 @@ public class MybinaryHeap {
 	 *            待调整的堆
 	 */
 	public static void buildHeap(int[] array) {
-		// 从最后一个非叶子节点开始，一次做下沉调整
+		// 从最后一个非叶子节点开始，依次做下沉调整
 		for (int i = (array.length - 2) / 2; i >= 0; i--) {
 			downAdjust(array, i, array.length);
 		}
