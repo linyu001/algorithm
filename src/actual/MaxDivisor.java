@@ -3,6 +3,8 @@ package actual;
 /**
  * 求两个数的最大公约数
  * 更相减损术和位移运算
+ * 时间复杂度为O(log(max(a,
+ * b)))。
  */
 public class MaxDivisor {
     public static int gcd(int a,int b){
