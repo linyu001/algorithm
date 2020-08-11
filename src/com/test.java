@@ -1,5 +1,7 @@
 package com;
 
 public class test {
-psvm
+    public static void main(String[] args) {
+
+    }
 }
